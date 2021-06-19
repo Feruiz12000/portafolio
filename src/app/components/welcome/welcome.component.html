@@ -1,0 +1,89 @@
+<form id="form1" runat="server">
+    <header>
+        <div class="contenedor">
+            <h1>
+                <a class="icon-emo-laugh" href=""></a> Feruiz </h1>
+            <input type="checkbox" id="menu-bar">
+            <label class="icon-menu" for="menu-bar"></label>
+            <!--Crear un menu-->
+            <nav class="menu">
+                <a class="icon-home" href="">Home</a>
+                <a class="icon-thumbs-up-alt" href="/welcome/iVoting">iVoting</a>
+                <a class="icon-chart-pie" href="/welcome/Arit">Arit Software</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div id="banner">
+            <img src="../../../assets/banner_inicio.jpg">
+            <div class="contenedor">
+                <h2>"Todo lo puedo en Cristo que me fortalece"</h2>
+                <p>Disponga de software inteligente que lo ayude a mostrar el valor de su negocio.</p>
+                <!-- <a href="">Contactame</a> -->
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    Contactame
+                </button>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Nombre: Fernando Vidal Ruiz Piox</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="card" style="width: 18rem;">
+                                <img src="../../../assets/perfil.jpg" class="card-img-top" alt="..." />
+                                <div class="card-body">
+                                    <p class="card-text" style="text-align: justify;">Soy estudiante con cierre de pensum de Ingenieria en Ciencias y Sistemas en la Universidad de San Carlos de Guatemala.</p>
+                                    <h5 class="font-weight-bold">Email:</h5>
+                                    <h6 aria-setsize="2">feruiz.12000@gmail.com</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div>
+                                <h5 class="font-weight-bold">Telefono:</h5>
+                                <font aria-setsize="5">+502 2471-6426</font>
+                                <h5 class="font-weight-bold">Celular:</h5>
+                                <font aria-setsize="5">+502 5575-7207</font>
+                                <h5 class="font-weight-bold">Edad:</h5>
+                                <font aria-setsize="5">24 años</font>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" (click)="verCurriculum()">Ver Curriculum</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <router-outlet></router-outlet>
+
+    <footer>
+        <div class="contenedor">
+            <p class="copy">Fernando Ruiz &copy; 2021</p>
+            <div class="sociales">
+                <a class="icon-facebook-rect" href="https://www.facebook.com/feer.ruiiz.7/"></a>
+                <a class="icon-twitter-bird" href=""></a>
+                <a class="icon-instagram" href="https://www.instagram.com/vidal_ruiiz/"></a>
+                <a class="icon-github-circled" href="https://github.com/Feruiz12000"></a>
+                <a class="icon-gitlab" href="https://gitlab.com/Feruiz12000"></a>
+            </div>
+        </div>
+    </footer>
+</form>
