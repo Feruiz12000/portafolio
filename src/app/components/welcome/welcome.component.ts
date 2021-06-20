@@ -7,6 +7,7 @@ import {Router} from '@angular/router';
 })
 export class WelcomeComponent implements OnInit {
 
+  anio = (new Date).getFullYear();
   constructor(private router:Router) { }
 
   ngOnInit(): void {
