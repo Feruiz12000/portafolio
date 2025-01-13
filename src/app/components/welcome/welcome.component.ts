@@ -14,7 +14,7 @@ export class WelcomeComponent implements OnInit {
   }
 
   verCurriculum(){
-    window.open( "https://drive.google.com/file/d/1V28_jRj9bqpRihqshzvKvfbz9O8n99kO/view?usp=sharing" );
+    window.open( "https://drive.google.com/file/d/1ATkQGe3NW5dOcq8GSiSZF96DTrxMeP7a/view?usp=sharing" );
   }
 
 }
